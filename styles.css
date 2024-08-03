@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .circle {
+  width: 15px;
+  height: 15px;
+  background-color: #f4a261;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.nav-left p {
+  margin: 0;
+}
+
+.nav-left .editor {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.nav-right a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  border-right: 1px solid #e0e0e0;
+  padding-right: 10px;
+}
+
+.nav-right a:last-child {
+  border-right: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.intro {
+  padding: 50px 0;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pfp {
+  width: 150px;
+  height: 150px;
+  background-image: url('path_to_profile_picture.jpg'); /* Replace with actual path */
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.intro-text h1 {
+  font-size: 3em;
+}
+
+.intro-text h3 {
+  font-size: 1.5em;
+  color: #555;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.resume {
+  background-color: #f4a261;
+}
+
+.projects {
+  background-color: #e76f51;
+}
+
+.contact {
+  background-color: #2a9d8f;
+}
+
+footer {
+  background-color: #fff;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 20px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+.footer-info .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-info .social-icons img {
+  width: 20px;
+  height: 20px;
+}
